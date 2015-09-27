@@ -13,6 +13,6 @@
     },
     "1.2.1": {
         "url": "https://github.com/stawen/okovision/archive/1.2.1.zip",
-        "changelog": "<ul><li>[#25] - Voir la version courante dans la page ""A propos""</li><li>[#19] - Correction Anomalie html sur la page des historiques</li><li>[#21] - Création page d'Import de masse</li><li>Amélioration du calcul global journalier</li></ul>"
+        "changelog": "<ul><li>[#25] - Voir la version courante dans la page 'A propos'</li><li>[#19] - Correction Anomalie html sur la page des historiques</li><li>[#21] - Création page d'Import de masse</li><li>Amélioration du calcul global journalier</li></ul>"
     }
 }

@@ -3,8 +3,8 @@
         "url": "https://github.com/stawen/okovision/archive/1.0.0.zip",
         "changelog": "<ul><li>First Version</li></ul>"
     },
-    "1.1.1": {
-        "url": "https://github.com/stawen/okovision/archive/1.1.1.zip",
+    "1.3.0": {
+        "url": "https://github.com/stawen/okovision/archive/unstable.zip",
         "changelog": "<ul><li>Test Update in Production</li></ul>"
     }
 }

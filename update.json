@@ -30,5 +30,10 @@
     "1.4.1": {
         "url": "https://github.com/stawen/okovision/archive/1.4.1.zip",
         "changelog": "<ul><li>Correction d'un décalage de 2 heures sur les rendus graphiques ou calcul de conso après un Zoom</li></ul>"
+    },
+    "1.4.2": {
+        "url": "https://github.com/stawen/okovision/archive/1.4.2.zip",
+        "changelog": "<ul><li>Correction du WARNING TimeZone dans la barre de menu</li></ul>"
     }
+    
 }

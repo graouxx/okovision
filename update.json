@@ -26,14 +26,6 @@
     "1.4.0": {
         "url": "https://github.com/stawen/okovision/archive/1.4.0.zip",
         "changelog": "<ul><li>[#22] - Tableau gr/dju/m2</li><li>[#34,#35] - Sync zoom graphe + maj indicateur haut de page sur la zone séléctionnée </li><li>Optimisation rendu graphe journalier</li><li>[#9] - Utilisation du status 4 et maj de la bdd</li></ul>"
-    },
-    "1.4.1": {
-        "url": "https://github.com/stawen/okovision/archive/1.4.1.zip",
-        "changelog": "<ul><li>Correction d'un décalage de 2 heures sur les rendus graphiques ou calcul de conso après un Zoom</li></ul>"
-    },
-    "1.4.2": {
-        "url": "https://github.com/stawen/okovision/archive/1.4.2.zip",
-        "changelog": "<ul><li>Correction du WARNING TimeZone dans la barre de menu</li></ul>"
     }
     
 }

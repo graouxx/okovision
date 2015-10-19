@@ -15,10 +15,6 @@
         "url": "https://github.com/stawen/okovision/archive/unstable.zip",
         "changelog": "<ul><li>[#22] - Tableau gr/dju/m2</li><li>[#34,#35] - Sync zoom graphe + maj indicateur haut de page sur la zone séléctionnée </li><li>Optimisation rendu graphe journalier</li><li>[#9] - Utilisation du status 4 et maj de la bdd</li></ul>"
     },
-    "1.4.1": {
-        "url": "https://github.com/stawen/okovision/archive/unstable.zip",
-        "changelog": "<ul><li>dev</li></ul>"
-    },
     "1.4.3": {
         "url": "https://github.com/stawen/okovision/archive/unstable.zip",
         "changelog": "<ul><li>P1 - Fix timezone</li></ul>"

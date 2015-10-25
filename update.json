@@ -34,6 +34,10 @@
     "1.5.0": {
         "url": "https://github.com/stawen/okovision/archive/1.5.0.zip",
         "changelog": "<ul><li>Possibilité de recalculer la synthese sur une periode choisie</li><li>Mise à jour de la matrice possible sans perte de données</li><li>Petites retouches ergonomiques</li><li>Refraichir le numero de version après un l'installation d'une maj</li></ul>"
+    },
+    "1.5.1": {
+        "url": "https://github.com/stawen/okovision/archive/1.5.1.zip",
+        "changelog": "<ul><li>Correction définitive (enfin j'espere) du décalage de date (j'ai trouvé le vilain coupable -> highchart...)</li></ul>"
     }
     
 }

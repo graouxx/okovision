@@ -25,7 +25,7 @@
     },
     "1.5.2": {
         "url": "https://github.com/stawen/okovision/archive/unstable.zip",
-        "changelog": "<ul><li>test</li></ul>"
+        "changelog": "<ul><li>Correction fuseau horaire (j'espere)</li><li>Axe Y dynamique pour les graphes journalier pouvant aller dans les négatifs</li></ul>"
     }
 }
 

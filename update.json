@@ -38,6 +38,10 @@
     "1.5.1": {
         "url": "https://github.com/stawen/okovision/archive/1.5.1.zip",
         "changelog": "<ul><li>Correction définitive (enfin j'espere) du décalage de date (j'ai trouvé le vilain coupable -> highchart...)</li></ul>"
+    },
+    "1.5.2": {
+        "url": "https://github.com/stawen/okovision/archive/unstable.zip",
+        "changelog": "<ul><li>Correction fuseau horaire (...)</li><li>Axe Y dynamique pour les graphes journalier pouvant aller dans les négatifs</li></ul>"
     }
     
 }

@@ -30,6 +30,10 @@
     "1.5.3": {
         "url": "https://github.com/stawen/okovision/archive/unstable.zip",
         "changelog": "<ul><li>Correction fuseau horaire (...)</li><li>Optimisation temps d'execution</li></ul>"
+    },
+    "1.6.0": {
+        "url": "https://github.com/stawen/okovision/archive/fix43.zip",
+        "changelog": "<ul><li>creation d'un espace sécurisé</li></ul>"
     }
 }
 

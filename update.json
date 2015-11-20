@@ -54,5 +54,9 @@
     "1.5.5": {
         "url": "https://github.com/stawen/okovision/archive/1.5.5.zip",
         "changelog": "<ul><li>Notification en premiere page d'une mise à jour disponible</li></ul>"
+    },
+    "1.6.0": {
+        "url": "https://github.com/stawen/okovision/archive/1.6.0.zip",
+        "changelog": "<ul><li>Creation d'un espace sécurisé (login: admin, pass:okouser)</li><li>Ajout de pages d'erreurs personnalisée</li></ul>"
     }
 }

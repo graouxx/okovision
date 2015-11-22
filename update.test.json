@@ -34,6 +34,10 @@
     "1.6.0": {
         "url": "https://github.com/stawen/okovision/archive/fix43.zip",
         "changelog": "<ul><li>Creation d'un espace sécurisé (login: admin, pass:okouser)</li><li>Ajout de pages d'erreurs personnalisée</li></ul>"
+    },
+    "1.6.1": {
+        "url": "https://github.com/stawen/okovision/archive/1.6.1.zip",
+        "changelog": "<ul><li>Correction upload fichier en erreur</li><li>Correction setup impossible</li></ul>"
     }
 }
 

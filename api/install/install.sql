@@ -8,6 +8,7 @@ CREATE DATABASE IF NOT EXISTS `oko_stats` /*!40100 DEFAULT CHARACTER SET utf8 */
 -- Export de la structure de table test. toto
 CREATE TABLE IF NOT EXISTS `oko_update` (
   `date` datetime NOT NULL,
+  `source` tinytext NOT NULL,
   `apptoken` tinytext NOT NULL,
   `version` tinytext NOT NULL
 ) ENGINE=MYISAM DEFAULT CHARSET=utf8;

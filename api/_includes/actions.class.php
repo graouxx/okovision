@@ -13,10 +13,10 @@ class actions extends connectDb{
 		parent::__destruct();
 	}
 
-    public function traceUpdate($token,$version){
+    public function traceUpdate($source, $token,$version){
         
         //si deja en base, nous ne faison rien
-        $q_exist = "SELECT count(*) as nb from oko_update where apptoken='$token' and version='$version'";
+        $q_exist = "SELECT count(*) as nb from oko_update where source='$source' and apptoken='$token' and version='$version'";
         $this->log->debug($q_exist);
         
         $exist = $this->query($q_exist);     
@@ -26,7 +26,7 @@ class actions extends connectDb{
 	    	
 	    	if ($res->nb == 0) {
 	    	    //si pas deja en base alors on l'ajoute
-	    	    $insert = "INSERT INTO oko_update set date='$this->_now', apptoken='$token', version='$version'";
+	    	    $insert = "INSERT INTO oko_update set date='$this->_now', source='$source', apptoken='$token', version='$version'";
                 $this->log->debug($insert);
                 $this->query($insert);
                 

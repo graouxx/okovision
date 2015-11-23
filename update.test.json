@@ -38,6 +38,10 @@
     "1.6.1": {
         "url": "https://github.com/stawen/okovision/archive/1.6.1.zip",
         "changelog": "<ul><li>Correction upload fichier en erreur</li><li>Correction setup impossible</li></ul>"
+    },
+    "1.6.2": {
+        "url": "https://github.com/stawen/okovision/archive/1.6.2.zip",
+        "changelog": "<ul><li>Correction setup (compte admin non present)</li><li>Ajout colonne DJU dans tableau recap</li><li>Maj du texte dans 'A propos'</li></ul>"
     }
 }
 

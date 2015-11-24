@@ -66,5 +66,9 @@
     "1.6.2": {
         "url": "https://github.com/stawen/okovision/archive/1.6.2.zip",
         "changelog": "<ul><li>Correction setup (compte admin non present)</li><li>Ajout colonne DJU dans tableau recap</li><li>Maj du texte dans 'A propos'</li></ul>"
+    },
+    "1.6.3": {
+        "url": "https://github.com/stawen/okovision/archive/1.6.3.zip",
+        "changelog": "<ul><li>Correction setup (erreur 401)</li><li>Corrections mineures diverses</li></ul>"
     }
 }

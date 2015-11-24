@@ -15,7 +15,7 @@ class actions extends connectDb{
 
     public function traceUpdate($source, $token,$version){
         
-        //si deja en base, nous ne faison rien
+        //si deja en base, nous ne faisons rien
         $q_exist = "SELECT count(*) as nb from oko_update where source='$source' and apptoken='$token' and version='$version'";
         $this->log->debug($q_exist);
         
@@ -32,7 +32,7 @@ class actions extends connectDb{
                 
                 echo "done";
 	    	}else{
-	    	    $this->log->debug("Déjà en base $token :: $version");
+	    	    $this->log->debug("Déjà en base $source :: $token :: $version");
 	    	}
         }
          

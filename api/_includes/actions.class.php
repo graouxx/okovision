@@ -38,6 +38,32 @@ class actions extends connectDb{
          
     }
     
+    public function getListClient(){
+    	$q = "select date, source, apptoken, version from oko_update;";
+    	
+		$result = $this->query($q);
+	    $r = array();
+	    
+	    if($result){
+	    	while($res = $result->fetch_object()){
+				array_push($r,$res);
+			}
+	    }
+    	return $r;
+    }
+    
+    public function getNbClient(){
+    	$q = "select count(distinct apptoken) as nbClient from oko_update;";
+    	
+		$result = $this->query($q);
+	    $r = array();
+	    
+	    if($result){
+	    	return $result->fetch_object();
+	    }
+    	
+    }
+    
 
     
     

@@ -39,7 +39,7 @@ class actions extends connectDb{
     }
     
     public function getListClient(){
-    	$q = "select date, source, apptoken, version from oko_update;";
+    	$q = "select date, source, apptoken, version from oko_update order by date;";
     	
 		$result = $this->query($q);
 	    $r = array();
@@ -53,7 +53,7 @@ class actions extends connectDb{
     }
     
     public function getNbClient(){
-    	$q = "select count(distinct apptoken) as nbClient from oko_update;";
+    	$q = "select count(distinct apptoken) as nbClient from oko_update where apptoken not like 'DEV-%';";
     	
 		$result = $this->query($q);
 	    $r = array();

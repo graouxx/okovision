@@ -15,7 +15,7 @@ $list   = $a->getListClient();
         <title>OkoVision - Stats</title>
     </head>
     
-    <h4>Nb de client : &nbsp; <?php echo $indic->nbClient; ?> </h4>
+    <h4>Nb de client (hors DEV) : &nbsp; <?php echo $indic->nbClient; ?> </h4>
 
     <body role="document">
         

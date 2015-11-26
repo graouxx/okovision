@@ -1,121 +1,353 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="UTF-8">
-    <title>OkoVision</title>
+<html lang="fr">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" media="screen" -->
-    <!--link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css' -->
-    <link rel="stylesheet" type="text/css" href="stylesheets/stylesheet.css" media="screen">
-    <link rel="stylesheet" type="text/css" href="stylesheets/github-light.css" media="screen">
-    <meta name="google-site-verification" content="Q7tUDx24QzZ82qqda3hN7fhk4avyAJxoMtyeeJAVuW0" />
-   
-   
-  </head>
-  <body>
-    
-    
-    
-    
-    <section class="page-header">
-      
-      
-      
-      <h1 class="project-name">OkoVision</h1>
-      <h2 class="project-tagline">Interface Web de supervision des chaudieres OeKofen Pellomatic Touch</h2>
-      <a href="https://github.com/stawen/okovision" class="btn">View on GitHub</a>
-      <a href="https://github.com/stawen/okovision/zipball/master" class="btn">Download .zip</a>
-      <a href="https://github.com/stawen/okovision/tarball/master" class="btn">Download .tar.gz</a>
-      <a href="https://github.com/stawen/okovision/wiki" class="btn">WIKI / Documentation</a>
-      
-      <div>
-        <p>Importer les fichiers générées par la chaudière manuellement ou automatiquement <br/> et choissisez ce que vous voulez voir.<br> </p>
-    </div>
-      <div class="visible-md visible-lg" style="top: 300px;">
-        <img src="img/welcome_screen.png" alt="Okovision screenshot day ">
-      </div>
-      
-      
-     
+    <meta name="description" content="OkOvision est un logiciel OpenSource de supervision des chaudières Pellomatic Touch OeKofen. Il permet de suivre la consommation de pellet">
+    <meta name="author" content="stawen DRONEK">
+
+    <title>OkoVision - OeKofen Pellomatic Touch Supervision</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+
+    <!-- Custom Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+
+    <!-- Plugin CSS -->
+    <link rel="stylesheet" href="css/animate.min.css" type="text/css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/creative.css" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">OkOVision</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#findout">Pourquoi ?</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#services">Fonctionnalitées</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#screenshot">ScreenShot</a>
+                    </li>
+					
+                    <li>
+                        <a class="page-scroll" href="https://github.com/stawen/okovision/wiki">Documentation</a>
+                    </li>
+					<li>
+                        <a class="page-scroll" href="#download">Télécharger</a>
+                    </li>
+					<li>
+                        <a class="page-scroll" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+				<h1>OkOVision</h1>
+				<hr>
+                <h1>OeKofen Pellomatic Touch Supervision</h1>
+                <hr>
+                <p><strong>Visualiser votre consommation de pellet simplement (jour/mois/année)</strong> <br/> Controler le fonctionnement de votre chaudière </p>
+                <a href="#findout" class="btn btn-success btn-xl page-scroll">En savoir plus</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-success" id="findout">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <h2 class="section-heading">Maitriser votre chaudière Oekofen</h2>
+                    <hr class="light">
+                    <p class="text-faded">
+					Il n'est pas simple de bien regler votre installation car chaque maison est differente.<br/><br/>
+					Les parametres de réglages de votre chaudière sont nombreux. Mais comment connaitre leurs incidences en terme de consommation/confort sans une visualisation directe du fonctionnement de votre installation OeKofen ?<br/><br/>
+					Comment suivre la consommation de pellet de votre chaudiere ? Comment anticiper une commande de pellet ?<br/><br/>
+					<strong>OkOvision est là pour ça !</strong>
+					</p>
+					
+                    <a href="#" class="btn btn-default btn-xl">Comment ça marche </a>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section class="main-content">
-      
-      <h2>Pourquoi faire ?</h2>
-        <p>Il n'est pas forcement simple de bien regler votre installation car chaque installation/maison est differente et unique<br/> 
-        Pour optimiser votre installation, vous devrez suivre une methodologie rigoureuse <br/><br/>
-        Les reglages ne sont pas facile si vous ne disposez pas de graphique vous permettant de suivre le fonctionnement de votre chaudiere au plus pret.
-        C'est devant cette problematique que j'ai decidé de developper Okovision.<br/>
-        </p>
-        <p><strong>Ainsi, il est maintenant possible de superviser une chaudière Oekofen grace à OkoVision</strong></p>
-      
-      <h2>Pour qui ?</h2>
-        <p>Pour tous les possesseurs de chaudieres oekofen Pellomatic Touch</p>
-      
-      <h2>Comment récupérer les données de la chaudière</h2>
-        <p>Vous avez 2 choix possibles : 
-          <ul>
-            <li>Par http, vous devez relier votre chaudiere à votre reseau informatique domestique (connecté à votre box)</li>
-            <li>Par USB, en branchant une clef usb sur votre chaudiere et d'uploader ensuite dans Okovision les fichiers générées</li>
-          </ul>
-          <p><a href="https://github.com/stawen/okovision/wiki" target="_blank">Tous cela est décrit dans le Wiki</a></p>
-        </p>
-      
-      <h2>Cela marche avec toutes les installations Pellomatic touch ?</h2>
-      <p>Oui, lors de l'installation d'okovision, vous faites apprendre au programme comment est constitué votre installation<br/>
-      <strong>OkoVision s'adapte à toutes les installations.</strong>
-      
-      </p>
-        
-      <h2>Une synthèse à l'année est-elle possible ?</h2>
-      
-      <div>
-        <p>OkoVision vous offre une synthèse pour chaque mois et sur la saison.</p>
-      </div>
-      <div class="visible-md visible-lg" style="top: 300px;">
-        <img src="img/welcome_screen2.png" alt="Okovision screenshot synthese">
-      </div>
-      
-      <h2>Plus d'info</h2>
-      
-        <p>Sur le Wiki, vous trouverez un tuto d'installation sur :
-          <ul>
-            <li>Comment relier votre chaudiere avec votre box avec un CPL (tuto à faire)</li>
-            <li>Installer Okovision sur :
-              <ul>
-                <li><a href="https://github.com/stawen/okovision/wiki/1.-Installation-h%C3%A9bergement-gratuit-(hostinger)" >Chez un hebergeur gratuit (hostinger)</a></li>
-                <li><a href="https://github.com/stawen/okovision/wiki/2.bis-Installation-sur-un-NAS-Synology" >Un Nas Synology</a></li>
-                <li><a href="https://github.com/stawen/okovision/wiki/2.-Installation-sur-Linux,rpi,-etc" >Un Raspberry pi / Linux</a> </li>
-              </ul>
-            </li>
-            <li><a href="https://github.com/stawen/okovision/wiki/3.1.-Setup-installation" >Comment configurer OkoVision</a></li>
-          </ul>
-        </p>
-    
-      <h2>Comment disposer des mises à jour du programme ?</h2>
-      
-      <p>OkoVision dispose d'un <a href="https://github.com/stawen/okovision/wiki/3.7.-Mise-%C3%A0-jour-de-la-version">mecanisme de mise à jour automatique</a> (OTA - Over The air). Dans la page "A propos" vous pouvez consulter les maj disponibles. 
-      Vous pouvez aussi declancher l'installation de la mise à jour</p>
-    
-      <footer class="site-footer">
-        <span class="site-footer-owner"><a href="https://github.com/stawen/okovision">Okovision</a> create by <a href="https://github.com/stawen">stawen</a>.</span>
-        <span class="site-footer-owner">Contact : stawen at dronek.com</span>
-      </footer>
-
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Fonctionnalitées</h2>
+                    <hr class="primary">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-wrench wow bounceIn text-primary"></i>
+                        <h3>Simple d'installation</h3>
+                        <p class="text-muted">OkOvision va "Apprendre" votre installation Oekofen</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-bar-chart wow bounceIn text-primary" data-wow-delay=".1s"></i>
+                        <h3>Historisation</h3>
+                        <p class="text-muted">Génération automatique d'un résumé mensuel et annuel rafraichi quotidiennement</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-tree wow bounceIn text-primary" data-wow-delay=".2s"></i>
+                        <h3>Consommation</h3>
+                        <p class="text-muted">Calcul en temps réèl de votre consommation de pellet</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-edit wow bounceIn text-primary" data-wow-delay=".3s"></i>
+                        <h3>Intuitif</h3>
+                        <p class="text-muted">Création de graphique à la demande. <br/>Aucune limitation</p>
+                    </div>
+                </div>
+				<div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-thumbs-up wow bounceIn text-primary" data-wow-delay=".4s"></i>
+                        <h3>Automatique</h3>
+                        <p class="text-muted">Récupération automatique des données de votre chaudière</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-area-chart wow bounceIn text-primary" data-wow-delay=".5s"></i>
+                        <h3>Visualiser</h3>
+                        <p class="text-muted">Visualisation journalière des données de votre installation oekofen</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-search wow bounceIn text-primary" data-wow-delay=".6s"></i>
+                        <h3>Affiner</h3>
+                        <p class="text-muted">Zoom sur le graphique pour une meilleure analyse <br/>&nbsp;</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-cogs wow bounceIn text-primary" data-wow-delay=".7s"></i>
+                        <h3>Configurer</h3>
+                        <p class="text-muted">Espace de configuration complet et sécurisé<br/>&nbsp;</p>
+                    </div>
+                </div>
+				<div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-eur wow bounceIn text-primary" data-wow-delay=".8s"></i>
+                        <h3>Gratuit</h3>
+                        <p class="text-muted">OkOvision est gratuit</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-cloud-download wow bounceIn text-primary" data-wow-delay=".9s"></i>
+                        <h3>Mise à jour</h3>
+                        <p class="text-muted">Mise à jour régulière et installée en un clic</p>
+                    </div>
+                </div>
+				<div class="col-lg-3 col-md-6 text-center">
+                    <div class="service-box">
+                        <i class="fa fa-4x fa-paper-plane wow bounceIn text-primary" data-wow-delay="1s"></i>
+                        <h3>Et apres ?</h3>
+                        <p class="text-muted">Vous ne pourrez plus vous en passer :)</p>
+                    </div>
+                </div>
+               
+            </div>
+        </div>
     </section>
 
-  
-  </body>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
-  <script>
-    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-  
-    ga('create', 'UA-66666859-1', 'auto');
-    ga('send', 'pageview');
-  
-  </script>
+    <section class="no-padding" id="screenshot">
+        <div class="container-fluid">
+            <div class="row no-gutter">
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/oko-histo.png" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Historique Mensuel
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/oko-saison.png" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Historique Annuel
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/oko-table.png" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Tableau de synthèse
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/oko-jour.png" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Graphique Journalier
+                                </div>
+                                <div class="project-name">
+                                    Chauffage
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/oko-zoom.png" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Graphique Journalier
+                                </div>
+                                <div class="project-name">
+                                    Zoom Chauffage
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a href="#" class="portfolio-box">
+                        <img src="img/portfolio/oko-ecs.png" class="img-responsive" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="portfolio-box-caption-content">
+                                <div class="project-category text-faded">
+                                    Graphique Journalier
+                                </div>
+                                <div class="project-name">
+                                    Eau Chaude Sanitaire
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+	
+	<section class="no-padding" id="download">
+		<aside class="bg-dark">
+			<div class="container text-center">
+				<div class="call-to-action">
+					<h2>Lancez-vous ! c'est simple !</h2>
+					<a href="https://github.com/stawen/okovision/zipball/master" class="btn btn-success btn-xl wow tada">Télécharger .zip</a>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<a href="https://github.com/stawen/okovision/tarball/master" class="btn btn-success btn-xl wow tada">Télécharger .tar.gz</a>
+				</div>
+			</div>
+		</aside>
+	</section>
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Restons en contact !</h2>
+                    <hr class="primary">
+                    <p>Vous ètes prêt à l'installer ? Super ! Venez échanger avec les autres utilisateurs !</p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <i class="fa fa-github fa-3x wow bounceIn"></i>
+                    <p><a href="https://github.com/stawen/okovision">stawen/okovision</a></p></p>
+                </div>
+				<div class="col-lg-3 text-center">
+                    <i class="fa fa-comments fa-3x wow bounceIn" data-wow-delay=".1s"></i>
+                    <p><a href="http://forums.futura-sciences.com/logiciel-software-open-source/705908-okovision-retours-utilisateurs.html">Forum OkOvision</a></p></p>
+                </div>
+				<div class="col-lg-3 text-center">
+                    <i class="fa fa-comment-o fa-3x wow bounceIn" data-wow-delay=".2s"></i>
+                    <p><a href="http://forums.futura-sciences.com/habitat-bioclimatique-isolation-chauffage/568807-retours-dexperiences-chaudieres-okofen.html">Forum Oekofen</a></p></p>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".3s"></i>
+                    <p><a href="mailto:stawen@dronek.com">stawen@dronek.com</a></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/jquery.fittext.js"></script>
+    <script src="js/wow.min.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/creative.js"></script>
+
+</body>
+
 </html>
-

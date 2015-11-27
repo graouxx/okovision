@@ -23,6 +23,6 @@ Upload de votre fichier dans okovision
 ## Apprentissage terminé
 
 Quand okovision a terminé son analyse, la structure finale vous est affiché. 
-Vous retrouverez la liste de tous ces capteurs dans [la page de creation-gestion des graphiques](https://github.com/stawen/okovision/wiki/3.4.-Gestion-des-graphiques-journaliers)
+Vous retrouverez la liste de tous ces capteurs dans [Création / Gestion des graphiques journaliers](/md/manageGraphics.md) 
 
 ![](/wiki/oko/w-0170-oko.png)

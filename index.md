@@ -23,7 +23,7 @@
    * [Importation manuelle du fichier CSV - A faire](/md/importCsvUpload.md)
    * [Importation en masse de fichier CSV - A faire](/md/importMass.md)
    * [Calcul Synthèse journalière - A faire](/md/synthese.md)
-   * [Information générale de votre installation Oekofen](/md/infoGenerale.md)
+   * [Information générale de votre installation Okofen](/md/infoGenerale.md)
    * [Definition des saisons](/md/season.md)
   * [Mise à jour d'OkOvision](/md/update.md)
   

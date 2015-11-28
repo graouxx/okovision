@@ -7,6 +7,7 @@
     * [Migration de UWamp (Windows) vers Hostinger](/md/mig2hostinger.md)
 
 # Configuration des tâches automatiques
+
   * [Cron - Linux](/md/cronlinux.md)
   * [Cron - hostinger](/md/cronHostinger.md)
   * [Cron - Synology](/md/cronSynology.md)
@@ -24,12 +25,12 @@
    * [Importation en masse de fichier CSV - À faire](/md/importMass.md)
    * [Calcul Synthèse journalière - À faire](/md/synthese.md)
    * [Information générale de votre installation Okofen](/md/infoGenerale.md)
-   * [Definition des saisons](/md/season.md)
+   * [Définition des saisons](/md/season.md)
   * [Mise à jour d'OkOvision](/md/update.md)
   
 # Paramétrages autres 
   
   * Brancher sa chaudière à son réseau informatique domostique
-  * [Configurer sa box pour rendre accessible la chaudiere depuis internet](/md/box.md)
+  * [Configurer sa box pour rendre accessible la chaudière depuis internet](/md/box.md)
   
   

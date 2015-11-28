@@ -1,4 +1,4 @@
-# Configurer sa box pour rendre accessible la chaudiere depuis internet
+# Configurer sa box pour rendre accessible la chaudière okofen depuis internet
 
  * [Box Orange](/md/livebox.md)
  * Box SFR

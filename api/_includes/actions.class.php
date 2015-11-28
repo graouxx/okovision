@@ -64,6 +64,11 @@ class actions extends connectDb{
     	
     }
     
+    public function getJsonNbClient(){
+    	header("Content-type: text/json; charset=utf-8");
+		echo json_encode($this->getNbClient(), JSON_NUMERIC_CHECK);
+    }
+    
 
     
     

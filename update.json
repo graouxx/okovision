@@ -53,11 +53,11 @@
     },
     "1.5.5": {
         "url": "https://github.com/stawen/okovision/archive/1.5.5.zip",
-        "changelog": "<ul><li>Notification en premiere page d'une mise à jour disponible</li></ul>"
+        "changelog": "<ul><li>Notification en première page d'une mise à jour disponible</li></ul>"
     },
     "1.6.0": {
         "url": "https://github.com/stawen/okovision/archive/1.6.0.zip",
-        "changelog": "<ul><li>Creation d'un espace sécurisé (login: admin, pass:okouser)</li><li>Ajout de pages d'erreurs personnalisée</li></ul>"
+        "changelog": "<ul><li>Création d'un éspace sécurisé (login: admin, pass:okouser)</li><li>Ajout de pages d'erreurs personnalisées</li></ul>"
     },
     "1.6.1": {
         "url": "https://github.com/stawen/okovision/archive/1.6.1.zip",
@@ -65,10 +65,10 @@
     },
     "1.6.2": {
         "url": "https://github.com/stawen/okovision/archive/1.6.2.zip",
-        "changelog": "<ul><li>Correction setup (compte admin non present)</li><li>Ajout colonne DJU dans tableau recap</li><li>Maj du texte dans 'A propos'</li></ul>"
+        "changelog": "<ul><li>Correction setup (compte admin non présent)</li><li>Ajout d'une colonne DJU dans tableau récapitulatif en page 'Historique'</li><li>Mise à jour du texte dans 'A propos'</li></ul>"
     },
     "1.6.3": {
         "url": "https://github.com/stawen/okovision/archive/1.6.3.zip",
-        "changelog": "<ul><li>Correction setup (erreur 401)</li><li>Corrections mineures diverses</li></ul>"
+        "changelog": "<ul><li>Correction du setup (erreur 401)</li><li>Corrections mineures diverses</li></ul>"
     }
 }

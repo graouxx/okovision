@@ -2,6 +2,6 @@
 include_once 'config.php';
 $a = new actions();
 
-$a->getJsonNbClient();
+$a->getJsonNbClient(isset($_GET['callback']));
 
 ?>

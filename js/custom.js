@@ -11,10 +11,21 @@ $(document).ready(function() {
     			 </div>');
         }
    	});
-	
-	$.getJSON( "http://api.okovision.dronek.com/json.php", function( json ) {
-	    $("#nbClient").html(json.nbClient);
+
+	$.ajax({
+	   type: 'GET',
+	    url: 'http://api.okovision.dronek.com/json.php',
+	    async: true,
+	    jsonpCallback: 'response',
+	    contentType: "application/json",
+	    dataType: 'jsonp',
+	    success: function(json){
+	    	//console.log(json.nbClient);
+	    	$("#nbClient").html(json.nbClient);
+	    }
 	});
+	
+
 
 
 });

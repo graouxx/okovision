@@ -6,7 +6,7 @@ Votre livebox (si vous n'avez pas une livebox pro) change d'adresse ip réguliè
 
 Tout d'abord, allez sur le site [https://www.noip.com/sign-up](https://www.noip.com/sign-up) , créez un compte. Si vous vous appelez DUPOND, vous pouvez demander un nom de domaine dynamique du style "dupond.ddns.net". Mais vous faites comme vous voulez, il faut juste se rappeler du nom de domaine dynamique que vous allez choisir. 
 
-Dans le wiki je le nommerai **dupond.ddns.net** et choisissez l'offre gratuite (free sign-up)
+Dans le wiki, je le nommerai **dupond.ddns.net** et choisissez l'offre gratuite (free sign-up)
 
 Une fois le compte validé et créé, il vous faut paramétrer la livebox
 
@@ -41,7 +41,7 @@ ici le chaudière est PC30 (je le sais car j'ai été voir l'ip directement sur 
 
 Votre nom de domaine **dupond.ddns.net** pointe sur votre livebox, donc sur rien. Pour rendre accessible votre chaudière à partir de l'adresse **dupond.ddns.net**, vous devez indiquez à la livebox de rediriger les flux (venant de l'exterieur) du port 80 de la livebox vers votre chaudière sur le port 80
 
-**Attention**, vous pouvez choisir de mettre n'importe quel port (supérieur à 1024) de la livevox vers le 80, mais si vous avez mis okovision chez hostinger, il est imperative de faire 80 -> 80
+**Attention**, vous pouvez choisir de mettre n'importe quel port (supérieur à 1024) de la livevox vers le 80, **mais si vous avez mis okovision chez hostinger, il est imperative de faire 80 -> 80 ou 8080 -> 80**
 
 Allez sur NAT/PAT
 
@@ -49,7 +49,7 @@ Allez sur NAT/PAT
 
 choisissez le service "web server http"
   * port interne : 80
-  * port externe : 80
+  * port externe : 80 ou 8080
   * protocole : TCP
   * appareil : soit il est dans la liste, soit vous saisissez son adresse IP
 

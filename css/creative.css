@@ -45,6 +45,12 @@ h6 {
     font-family: 'Open Sans','Helvetica Neue',Arial,sans-serif;
 }
 
+.white {
+    text-transform: uppercase;
+    font-weight: 700;
+    color: rgba(255,255,255,.85);
+}
+
 p {
     margin-bottom: 20px;
     font-size: 16px;
@@ -214,7 +220,7 @@ header .header-content .header-content-inner p {
     margin-bottom: 50px;
     font-size: 16px;
     font-weight: 300;
-    color: rgba(255,255,255,.7);
+    color: rgba(255,255,255,.85);
 }
 
 @media(min-width:768px) {

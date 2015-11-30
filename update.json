@@ -53,22 +53,27 @@
     },
     "1.5.5": {
         "url": "https://github.com/stawen/okovision/archive/1.5.5.zip",
+        "date": "15/11/2015",
         "changelog": "<ul><li>Notification en première page d'une mise à jour disponible</li></ul>"
     },
     "1.6.0": {
         "url": "https://github.com/stawen/okovision/archive/1.6.0.zip",
+        "date": "20/11/2015",
         "changelog": "<ul><li>Création d'un éspace sécurisé (login: admin, pass:okouser)</li><li>Ajout de pages d'erreurs personnalisées</li></ul>"
     },
     "1.6.1": {
         "url": "https://github.com/stawen/okovision/archive/1.6.1.zip",
+        "date": "22/11/2015",
         "changelog": "<ul><li>Correction upload fichier en erreur</li><li>Correction setup impossible</li></ul>"
     },
     "1.6.2": {
         "url": "https://github.com/stawen/okovision/archive/1.6.2.zip",
+        "date": "23/11/2015",
         "changelog": "<ul><li>Correction setup (compte admin non présent)</li><li>Ajout d'une colonne DJU dans tableau récapitulatif en page 'Historique'</li><li>Mise à jour du texte dans 'A propos'</li></ul>"
     },
     "1.6.3": {
         "url": "https://github.com/stawen/okovision/archive/1.6.3.zip",
+        "date": "25/11/2015",
         "changelog": "<ul><li>Correction du setup (erreur 401)</li><li>Corrections mineures diverses</li></ul>"
     }
 }

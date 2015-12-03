@@ -6,8 +6,9 @@ Mettez à jour votre version installé sur votre windows
 Procédez a l'installation d'okovision sur hostinger.
 
 La tuto ci-dessous va vous expliquer comment transférer vous données de Uwamp vers hostinger
+Si l'export avec PhpMyadmin ne fonctionne pas car vous avez trop de volume, utiliser la methode avec HeidiSQL (decrit plus bas)
 
-## Export des données sur windows
+## Export des données sur windows avec PhpMyadmin
 
 lancer phpmyadmin
 
@@ -34,6 +35,49 @@ Après avoir fait "Executer", Vous allez télécharger un fichier localhost.sql.
 
 ![](/wiki/hostinger/mig/mig-0070.png)
 
+## Export des données sur windows avec HeidiSQL
+
+Télécharger [HeidiSQL](http://www.heidisql.com/downloads/releases/HeidiSQL_9.3_Portable.zip) (c'est la version portable)
+Cela veut dire que vous n'avez cas decompresser le .zip et a lancer le programme.
+
+Lancer HeidiSql
+
+![](/wiki/hostinger/mig/mig-0140.png)
+
+Renseigner le champs comme dans l'image ci-dessous (utilisateur : root / mot de passe : root) et cliquez sur "Ouvrir"
+
+![](/wiki/hostinger/mig/mig-0150.png)
+
+Le programme se lance et vous devez voir cela
+
+![](/wiki/hostinger/mig/mig-0160.png)
+
+Faites, clic droit sur la base okovision, puis exporter
+
+![](/wiki/hostinger/mig/mig-0170.png)
+
+
+### Export total pour remplacement total de la base sur hostinger
+
+Pour remplacer l'ensemble de donnée chez hostinger, choissiser les parametres suivant entouré de rouge.
+Pour le nom du  fichier sql, metter le dans un emplacement que vous pourrez retrouver facilement.
+
+![](/wiki/hostinger/mig/mig-0180.png)
+
+Lorsque le message ```Compression done``` apparait, vous pouvez cliquer sur "fermer"
+
+### Export partiel pour mise a jour de la base sur hostinger et reprise de l'historique
+
+Pour mettre a jour les données chez hostinger, choissiser les parametres suivant entouré de rouge.
+Pour le nom du  fichier sql, metter le dans un emplacement que vous pourrez retrouver facilement.
+
+![](/wiki/hostinger/mig/mig-0200.png)
+
+Lorsque le message ```Compression done``` apparait, vous pouvez cliquer sur "fermer"
+
+
+
+## Importer les données chez hostinger
 
 Retournez dans Hostinger, section "Bases" / "importer"
 

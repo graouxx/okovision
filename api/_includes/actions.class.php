@@ -22,7 +22,7 @@ class actions extends connectDb{
         $exist = $this->query($q_exist);
 
         if($exist){
-                        $res = $exist->fetch_object();
+               $res = $exist->fetch_object();
 
                 if ($res->nb == 0) {
                     //si pas deja en base alors on l'ajoute
@@ -41,7 +41,7 @@ class actions extends connectDb{
     public function getListClient(){
         $q = "select date, source, apptoken, version from oko_update order by date;";
 
-                $result = $this->query($q);
+            $result = $this->query($q);
             $r = array();
 
             if($result){
@@ -53,9 +53,9 @@ class actions extends connectDb{
     }
 
     public function getNbClient(){
-        $q = "select count(distinct apptoken) as nbClient from oko_update where apptoken not like 'DEV-%';";
+            $q = "select count(distinct apptoken) as nbClient from oko_update where apptoken not like 'DEV-%';";
 
-                $result = $this->query($q);
+            $result = $this->query($q);
             $r = array();
 
             if($result){

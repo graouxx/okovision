@@ -89,7 +89,7 @@ Vous devez saisir les informations demandées (le nom du serveur de la base = ho
 
 ![](/wiki/hostinger/host-0170.png)
 
-Cliquez sur tester, et si okovision vous dit OK, alors vous pouvez terminer le setup et vous rendre sur [la page de configuration](https://github.com/stawen/okovision/wiki/3.1.-Setup---installation)
+Cliquez sur tester, et si okovision vous dit OK, alors vous pouvez terminer le [setup](/md/setup.md)
 
 ### Configuration de la récuperation automatique du fichier csv
 

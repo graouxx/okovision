@@ -75,5 +75,10 @@
         "url": "https://github.com/stawen/okovision/archive/1.6.3.zip",
         "date": "25/11/2015",
         "changelog": "<ul><li>Correction du setup (erreur 401)</li><li>Corrections mineures diverses</li></ul>"
+    },
+    "1.6.4": {
+        "url": "https://github.com/stawen/okovision/archive/1.6.4.zip",
+        "date": "08/12/2015",
+        "changelog": "<ul><li>Préparation livraison 1.7.0</li><li>Evolution du mécanisme de mise à jour</li></ul>"
     }
 }

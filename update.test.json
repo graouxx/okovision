@@ -59,7 +59,7 @@
     "1.6.4": {
         "url": "https://github.com/stawen/okovision/archive/unstable.zip",
         "date": "07/12/2015",
-        "changelog": "<ul><li>test</li></ul>"
+        "changelog": "<ul><li>Préparation livraison 1.7.0</li><li>Evolution du mécanisme de mise à jour</li></ul>"
     }
 }
 

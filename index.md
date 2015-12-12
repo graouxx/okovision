@@ -23,7 +23,7 @@
    * [Importation fichier CSV depuis chaudière - À faire](/md/importCsvIP.md)
    * [Importation manuelle du fichier CSV - À faire](/md/importCsvUpload.md)
    * [Importation en masse de fichier CSV - À faire](/md/importMass.md)
-   * [Calcul Synthèse journalière - À faire](/md/synthese.md)
+   * [Calcul Synthèse journalière](/md/synthese.md)
    * [Information générale de votre installation Okofen](/md/infoGenerale.md)
    * [Définition des saisons](/md/season.md)
   * [Mise à jour d'OkOvision](/md/update.md)

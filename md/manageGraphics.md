@@ -24,6 +24,11 @@ Recommencer la manipulation jusqu'à obtention du graphique désiré.
 ![](/wiki/oko/w-0280-oko.png)
 ![](/wiki/oko/w-0290-oko.png)
 
+
+### Modifier la position
+
+![](/wiki/oko/w-0310-oko.gif)
+
 ## Visualisation des données
 
 Après avoir injecté les données dans okovision, vous pouvez les visualiser sur la première page

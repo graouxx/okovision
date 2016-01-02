@@ -60,7 +60,10 @@
         "url": "https://github.com/stawen/okovision/archive/1.6.4.zip",
         "date": "07/12/2015",
         "changelog": "<ul><li>Préparation livraison 1.7.0</li><li>Evolution du mécanisme de mise à jour</li></ul>"
+    },
+    "1.7.0": {
+        "url": "https://github.com/stawen/okovision/archive/unstable.zip",
+        "date": "07/12/2015",
+        "changelog": "<ul><li> Correction orthographe / correction synthaxique</li><li> Changement de l'unité ms en ds pour la vis sans fin</li><li> Calendrier lors de la selection de la date sur la page d'accueil</li><li> Afficher les noms des courbes dans l'ordre des courbes</li><li> Ajout page 'Temps Réel'</li><ul><li>  Visualisation des parametres de réglage combustion chaudière et régulation</li><li>  Visualisation des graphiques en temps réel</li><li>  Sauvegarde de la configuration de la chaudiere</li><li>  Modification des parametres de la chaudiere via okovision</li><li>  Rechargement de parametres sauvegardées et modification des parametres de la chaudière</li><li>  Visualisation sur les graphes journaliers de la modification des parametres de la chaudière</li></ul><li>  Suppression de la matrices sans perte de données de l'historique (mais suppresion des données journalières)</li></ul>"
     }
 }
-
-

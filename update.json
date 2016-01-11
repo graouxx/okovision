@@ -90,5 +90,10 @@
         "url": "https://github.com/stawen/okovision/archive/1.7.1.zip",
         "date": "03/01/2016",
         "changelog": "<ul><li>Ajout d'une alerte pour dire de sauvegarder si changement de parametres</li><li>Prise en compte d'installation multi-chaudière (le calcul de la conso ne sera que pour la chaudière maitre)</li><li>Revision de la methode d'installation -> optimisation de l'espace de stockage necessaire pour les données journalières</li><li>Graphe synthèse saison, ne pas voir le mois en cours</li></ul>"
+    },
+    "1.7.2": {
+        "url": "https://github.com/stawen/okovision/archive/1.7.2.zip",
+        "date": "11/01/2016",
+        "changelog": "<ul><li>Ajout d'une API permettant à des applications tiers d'interagir avec okovision et la chaudière</li></ul>"
     }
 }

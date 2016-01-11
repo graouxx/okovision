@@ -18,6 +18,7 @@
   * [Setup](/md/setup.md)
    * [Matrice de lecture](/md/matrix.md)
   * [Accès espace sécurisé](/md/login.md)
+  * [Temps Réel](/md/rt.md)
   * [Configuration Générale](/md/configGenerale.md)
    * [Création / Gestion des graphiques journaliers](/md/manageGraphics.md) 
    * [Importation fichier CSV depuis chaudière - À faire](/md/importCsvIP.md)
@@ -34,4 +35,8 @@
   * Brancher sa chaudière à son réseau informatique domostique
   * [Configurer sa box pour rendre accessible la chaudière depuis internet](/md/box.md)
   
+  
 # API (interface de communication)
+
+  * [Liste des services disponibles](/md/api.md#Liste_des_services_disponibles)
+  * [Exemple](/md/api.md#Fonctionnement)

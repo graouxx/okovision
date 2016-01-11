@@ -1,6 +1,6 @@
 # Installation
 
-  * [Hébergeur Web - Hostinger (recommandée)](/md/installWeb.md)
+  * [Hébergeur Web Gratuit - Hostinger (recommandée)](/md/installWeb.md)
   * [Linux](/md/instalLinux.md)
   * [Nas Synology](/md/synology.md)
   * [UWamp - Windows](/md/UWamp.md)
@@ -25,12 +25,13 @@
    * [Importation en masse de fichier CSV - À faire](/md/importMass.md)
    * [Calcul Synthèse journalière](/md/synthese.md)
    * [Information générale de votre installation Okofen](/md/infoGenerale.md)
+   * [Modification / Mise a jour / Suppresion de la matrice](/md/updateMatrix.md)
    * [Définition des saisons](/md/season.md)
-  * [Mise à jour d'OkOvision](/md/update.md)
+  * [Mise à jour d'Okovision](/md/update.md)
   
 # Paramétrages autres 
   
   * Brancher sa chaudière à son réseau informatique domostique
   * [Configurer sa box pour rendre accessible la chaudière depuis internet](/md/box.md)
   
-  
+# API (interface de communication)

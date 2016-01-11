@@ -2,4 +2,4 @@
 
  * [Box Orange](/md/livebox.md)
  * Box SFR
- * Box Free
+ * [Box Free](/md/freebox.md)

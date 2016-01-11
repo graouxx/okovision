@@ -14,9 +14,9 @@ class actions extends connectDb{
         }
 
     public function traceUpdate($source, $token,$version){
-
+        $remote = $_SERVER['REMOTE_ADDR'];
         //si deja en base, nous ne faisons rien
-        $q_exist = "SELECT count(*) as nb from oko_update where source='$source' and apptoken='$token' and version='$version'";
+        $q_exist = "SELECT count(*) as nb from oko_update where source='$source' and apptoken='$token' and version='$version' and remote_address='$remote'";
         $this->log->debug($q_exist);
 
         $exist = $this->query($q_exist);
@@ -26,20 +26,21 @@ class actions extends connectDb{
 
                 if ($res->nb == 0) {
                     //si pas deja en base alors on l'ajoute
-                    $insert = "INSERT INTO oko_update set date='$this->_now', source='$source', apptoken='$token', version='$version'";
-                $this->log->debug($insert);
-                $this->query($insert);
+                    $insert = "INSERT INTO oko_update set date='$this->_now', source='$source',remote_address='$remote', apptoken='$token', version='$version'";
+                    $this->log->debug($insert);
+                    $this->query($insert);
 
-                echo "done";
+                    echo "done";
+                    
                 }else{
-                    $this->log->debug("Déjà en base $source :: $token :: $version");
+                    $this->log->debug("Déjà en base $source :: $token :: $version :: $remote");
                 }
         }
 
     }
 
     public function getListClient(){
-        $q = "select date, source, apptoken, version from oko_update order by date;";
+        $q = "select date, source, remote_address, apptoken, version from oko_update order by date;";
 
             $result = $this->query($q);
             $r = array();

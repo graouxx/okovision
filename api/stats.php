@@ -24,6 +24,7 @@ $list   = $a->getListClient();
                 <tr>
                     <th class="col-md-3">date</th>
                     <th class="col-md-3">source</th>
+                    <th class="col-md-3">remote_address</th>
                     <th class="col-md-3">token</th>
                     <th class="col-md-3">version</th>
                 </tr>
@@ -34,7 +35,7 @@ $list   = $a->getListClient();
             
             
             foreach($list as $obj){
-                echo '<tr><td>'.$obj->date.'</td><td>'.$obj->source.'</td><td>'.$obj->apptoken.'</td><td>'.$obj->version.'</td></tr>';
+                echo '<tr><td>'.$obj->date.'</td><td>'.$obj->source.'</td><td>'.$obj->remote_address.'</td><td>'.$obj->apptoken.'</td><td>'.$obj->version.'</td></tr>';
             }
             ?>
         </tbody>

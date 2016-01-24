@@ -93,7 +93,7 @@ Ne pas oublier de mettre le token, sinon la commande sera rejecté :
 
 Le resultat
 ```
-* http://okovision/api.php?TOKEN=sdjknrjkfndvjb&TYPE=admin&ACTION=setBoilerMode&WAY=1&MODE=2
+* http://okovision/api.php?TOKEN=sdjknrjkfndvjb&TYPE=rt&ACTION=setBoilerMode&WAY=1&MODE=2
 ```
 
 ## Liste des services disponibles

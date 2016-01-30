@@ -100,5 +100,10 @@
         "url": "https://github.com/stawen/okovision/archive/1.7.3.zip",
         "date": "30/01/2016",
         "changelog": "<ul><li>Correction mineur dans initialisation de la base de donnée (bgorge)</li><li>Quand un utilisateur import pour la même journée le csv en http et CSV, les données ne sont plus en double (bgorge)</li></ul>"
+    },
+    "1.7.4": {
+        "url": "https://github.com/stawen/okovision/archive/1.7.4.zip",
+        "date": "30/01/2016",
+        "changelog": "<ul><li>Correction perte des noms des capteurs suite maj 1.7.3</li></ul>"
     }
 }

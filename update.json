@@ -105,5 +105,10 @@
         "url": "https://github.com/stawen/okovision/archive/1.7.4.zip",
         "date": "30/01/2016",
         "changelog": "<ul><li>Correction perte des noms des capteurs suite maj 1.7.3</li></ul>"
+    },
+    "1.8.0": {
+        "url": "https://github.com/stawen/okovision/archive/1.8.0.zip",
+        "date": "25/04/2016",
+        "changelog": "<ul><li>Correction orthographe</li><li>Ajout gestion du stock des pellets (Silo et sac)</li><li>Gestion des evenements de la chaudière (ramonage, vidage du cendrier, entretien)</li></ul>"
     }
 }

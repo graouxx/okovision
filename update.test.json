@@ -90,5 +90,13 @@
         "url": "https://github.com/stawen/okovision/archive/1.8.0.zip",
         "date": "25/04/2016",
         "changelog": "<ul><li>Correction orthographe</li><li>Ajout gestion du stock des pellets (Silo et sac)</li><li>Gestion des evenements de la chaudière (ramonage, vidage du cendrier, entretien)</li></ul>"
+    },
+    "1.8.1": {
+        "url": "https://github.com/stawen/okovision/archive/1.8.1.zip",
+        "date": "01/02/2017",
+        "changelog": "<ul><li>Correction anomalie lors du setup pour le choix IP / USB</li><liCorrection déconnexion sous FireFox</li></ul>"
     }
 }
+
+
+
